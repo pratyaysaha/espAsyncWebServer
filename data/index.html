@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EspAsyncWebServer</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="container-wrapper">
+        <div class="header-banner">
+            <div class="header-content">
+                ESP Async Webserver
+            </div>
+            <div class="header-subcontent">
+                Websever hosted by ESP8266.
+            </div>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <div class="card 1">
+            <div class="card-header">
+                <div class="card-head-content">
+                    <span>Switch 1</span>
+                </div>
+                <div class="card-subcontent">
+                   <span> Present State :
+                        <span id='switch-state'>
+                            %STATE%
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="button-on">
+                    <a href="/on">
+                        <button class="bt">
+                            LED ON
+                        </button>
+                    </a>
+                </div>
+                <div class="button-off">
+                    <a href="/off">
+                        <button class="bt">
+                            LED OFF
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!----Card 2 place-->
+    </div>
+    
+</body>
+</html>
